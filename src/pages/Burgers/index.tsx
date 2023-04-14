@@ -1,3 +1,5 @@
+import { Head } from '../../components/Head'
+
 export default function Burgers() {
-  return <h1>Burguers</h1>
+  return <Head title='Hamburguers' description='Nossos melhores burguers' />
 }
